@@ -1,0 +1,15 @@
+# Large source archives and generated reconstruction caches are kept separately.
+MeshroomCache/
+raw-data/
+models/
+*.obj
+*.mtl
+*.blend
+*.blend1
+*.abc
+*.exr
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini

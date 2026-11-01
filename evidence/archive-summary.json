@@ -1,0 +1,103 @@
+{
+  "description": "Recovered historical Meshroom cache diagnostics. These are not independent geometric accuracy measurements or controlled software/EXIF comparisons.",
+  "source_root": "Photogrammetry",
+  "path_conventions": "source paths are relative to the historical Photogrammetry archive; included_stats paths are relative to this repository root.",
+  "meshroom_version": "2021.1.0",
+  "runs": [
+    {
+      "source": "Meshroom/Artefact6/MeshroomCache/StructureFromMotion/936792078650bdb949380c5d586b52515d73eea6/stats.json",
+      "metrics": {
+        "views": "79",
+        "validViews": "79",
+        "poses": "79",
+        "points": "79744",
+        "residual": "1.236631923572679",
+        "time": "935.14999999999998"
+      },
+      "metric_note": "values copied verbatim from stats.json; residual and time have no unit label in this file",
+      "camera_model": "fisheye4",
+      "exif_focal_length_values": [
+        "3"
+      ],
+      "included_stats": "evidence/stats/artifact-6.json"
+    },
+    {
+      "source": "Meshroom/Artefact4/test2/test2_vid1/MeshroomCache/StructureFromMotion/eac01173ebecbea967084f04ff8e6dd45fc9f49d/stats.json",
+      "metrics": {
+        "views": "81",
+        "validViews": "32",
+        "poses": "32",
+        "points": "35597",
+        "residual": "1.2110689516297373",
+        "time": "518.51700000000005"
+      },
+      "metric_note": "values copied verbatim from stats.json; residual and time have no unit label in this file",
+      "camera_model": "fisheye4",
+      "exif_focal_length_values": [
+        "3"
+      ],
+      "included_stats": "evidence/stats/artifact-4-test-2.json"
+    },
+    {
+      "source": "Meshroom/Artefact3/MeshroomCache/StructureFromMotion/7d8b9b13ec423e365dcf6c92c0739417e87ba7f3/stats.json",
+      "metrics": {
+        "views": "181",
+        "validViews": "181",
+        "poses": "181",
+        "points": "124570",
+        "residual": "1.2107910969550395",
+        "time": "1757.836"
+      },
+      "metric_note": "values copied verbatim from stats.json; residual and time have no unit label in this file",
+      "camera_model": "fisheye4",
+      "exif_focal_length_values": [
+        "3"
+      ],
+      "included_stats": "evidence/stats/artifact-3.json"
+    },
+    {
+      "source": "Meshroom/Artefact5/art5_test1_noFL/MeshroomCache/StructureFromMotion/fea190cbf212ebc972f5659272a9e6c6273d4fe9/stats.json",
+      "metrics": {
+        "views": "92",
+        "validViews": "92",
+        "poses": "92",
+        "points": "71626",
+        "residual": "1.2057798935500053",
+        "time": "1053.8599999999999"
+      },
+      "metric_note": "values copied verbatim from stats.json; residual and time have no unit label in this file",
+      "camera_model": "radial3",
+      "exif_focal_length_values": [
+        "absent"
+      ],
+      "included_stats": "evidence/stats/artifact-5-no-fl.json"
+    },
+    {
+      "source": "Meshroom/Artefact4/test1/MeshroomCache/StructureFromMotion/164d3446cb71f93f03e63c9318adce4cb1340726/stats.json",
+      "metrics": {
+        "views": "145",
+        "validViews": "36",
+        "poses": "36",
+        "points": "17091",
+        "residual": "1.2805851572909641",
+        "time": "194.59299999999999"
+      },
+      "metric_note": "values copied verbatim from stats.json; residual and time have no unit label in this file",
+      "camera_model": "fisheye4",
+      "exif_focal_length_values": [
+        "3"
+      ],
+      "included_stats": "evidence/stats/artifact-4-test-1.json"
+    }
+  ],
+  "camera_caveat": "FocalLength=3 exists in EXIF for artifacts 3, 4, and 6, but cameraInit intrinsics show sensorWidth=-1, pxInitialFocalLength=-1, initializationMode=unknown. The cached initial focal in pixels is 2317.6450198781713. Thus these files do not establish that the EXIF tag provided calibrated intrinsics. Artifact5 noFL uses radial3 while artifacts 3, 4, and 6 use fisheye4; these are not controlled EXIF ablations.",
+  "pipeline_caveat": "Surviving Meshroom 2021.1.0 graphs connect StructureFromMotion directly to Meshing; they do not contain PrepareDenseScene, DepthMap, or DepthMapFilter nodes. Art3 meshing log confirms depthMapsFolder empty and SfM input. Describe these archived runs as draft meshing from SfM, not verified dense multi-view stereo.",
+  "recommended_source_frame": {
+    "path": "artefact3/artefact3_frames00181.jpg",
+    "viewId": "341498619",
+    "width": "1920",
+    "height": "1088",
+    "caption": "Archived underwater input frame, artifact 3.",
+    "note": "Visually inspected, full artifact and central opening visible. Preprocessing history not inferred from appearance."
+  }
+}
