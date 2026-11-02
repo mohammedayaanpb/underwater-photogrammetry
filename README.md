@@ -4,7 +4,7 @@
 
 An exploration of photogrammetry for documenting underwater archaeological artifacts at Dwarka, India. I turned selected expedition footage into textured 3D models and compared reconstruction workflows.
 
-## Reconstructed artifacts
+## From underwater imagery to a model
 
 Each row pairs four widely spaced input views with the reconstructed artifact. Click a collage to enlarge it, or an animated preview to open the full-resolution video.
 
