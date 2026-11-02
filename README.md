@@ -30,24 +30,6 @@ Each row pairs four widely spaced input views with the reconstructed artifact. C
 
 *Source frames retain their original framing and color. The videos show final presentation models from the original project. [Frame selections and media provenance](docs/media-provenance.md).*
 
-## From underwater imagery to a model
-
-<table>
-  <tr><th width="50%">Archived input frame · Artifact 3</th><th width="50%">Final presentation model · Artifact 3</th></tr>
-  <tr>
-    <td><img src="assets/images/artifact-3-input.jpg" alt="Underwater video frame showing artifact 3 and its central opening" width="480"></td>
-    <td><img src="assets/images/artifact-3.jpg" alt="Still from the textured artifact 3 turntable" width="480"></td>
-  </tr>
-</table>
-
-*An archived frame from the multiview input sequence, shown alongside the final presentation model.*
-
-The existing still photographs did not provide enough usable coverage. I screened approximately **102 GB of imagery and video**, grouped the data around six artifacts, and selected footage for **four artifacts**. The NIO team had collected the expedition data before my project began.
-
-**My work:** footage selection, color adjustment, frame extraction and filtering, focal-length metadata experiments, reconstruction with Meshroom and Autodesk ReCap, and mesh processing and presentation with MeshLab and Blender.
-
-**Workflow:** select footage → prepare frames → assign metadata → reconstruct → inspect and process meshes.
-
 ## Comparing the reconstruction tools
 
 <table>
