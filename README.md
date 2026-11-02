@@ -6,20 +6,29 @@ An exploration of photogrammetry for documenting underwater archaeological artif
 
 ## Reconstructed artifacts
 
-Click a preview to open its full-resolution video.
+Each row pairs four widely spaced input views with the reconstructed artifact. Click a collage to enlarge it, or an animated preview to open the full-resolution video.
 
 <table>
+  <tr><th width="50%">Input frames</th><th width="50%">Reconstruction video</th></tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/videos/artifact-1.mp4"><img src="assets/previews/artifact-1.gif" alt="Rotating textured reconstruction of artifact 1" width="480"></a><br><strong>Artifact 1</strong> · <a href="assets/videos/artifact-1.mp4">Full video</a></td>
-    <td width="50%" align="center"><a href="assets/videos/artifact-3.mp4"><img src="assets/previews/artifact-3.gif" alt="Rotating textured reconstruction of artifact 3, with a central opening" width="480"></a><br><strong>Artifact 3</strong> · <a href="assets/videos/artifact-3.mp4">Full video</a></td>
+    <td width="50%" align="center"><a href="assets/images/artifact-1-source-collage.jpg"><img src="assets/images/artifact-1-source-collage.jpg" alt="Four widely spaced underwater input frames showing complementary views of artifact 1" width="480"></a><br><strong>Artifact 1</strong> · Selected input views</td>
+    <td width="50%" align="center"><a href="assets/videos/artifact-1.mp4"><img src="assets/previews/artifact-1.gif" alt="Animated textured reconstruction of artifact 1" width="480"></a><br><strong>Artifact 1</strong> · <a href="assets/videos/artifact-1.mp4">Full video</a></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/videos/artifact-5.mp4"><img src="assets/previews/artifact-5.gif" alt="Rotating textured reconstruction of the elongated artifact 5" width="480"></a><br><strong>Artifact 5</strong> · <a href="assets/videos/artifact-5.mp4">Full video</a></td>
-    <td width="50%" align="center"><a href="assets/videos/artifact-6.mp4"><img src="assets/previews/artifact-6.gif" alt="Rotating textured reconstruction of artifact 6, a rectangular surface" width="480"></a><br><strong>Artifact 6</strong> · <a href="assets/videos/artifact-6.mp4">Full video</a></td>
+    <td width="50%" align="center"><a href="assets/images/artifact-3-source-collage.jpg"><img src="assets/images/artifact-3-source-collage.jpg" alt="Four widely spaced underwater input frames showing complementary views of artifact 3" width="480"></a><br><strong>Artifact 3</strong> · Selected input views</td>
+    <td width="50%" align="center"><a href="assets/videos/artifact-3.mp4"><img src="assets/previews/artifact-3.gif" alt="Animated textured reconstruction of artifact 3" width="480"></a><br><strong>Artifact 3</strong> · <a href="assets/videos/artifact-3.mp4">Full video</a></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/images/artifact-5-source-collage.jpg"><img src="assets/images/artifact-5-source-collage.jpg" alt="Four widely spaced underwater input frames showing complementary views of artifact 5" width="480"></a><br><strong>Artifact 5</strong> · Selected input views</td>
+    <td width="50%" align="center"><a href="assets/videos/artifact-5.mp4"><img src="assets/previews/artifact-5.gif" alt="Animated textured reconstruction of artifact 5" width="480"></a><br><strong>Artifact 5</strong> · <a href="assets/videos/artifact-5.mp4">Full video</a></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/images/artifact-6-source-collage.jpg"><img src="assets/images/artifact-6-source-collage.jpg" alt="Four widely spaced underwater input frames showing complementary views of artifact 6" width="480"></a><br><strong>Artifact 6</strong> · Selected input views</td>
+    <td width="50%" align="center"><a href="assets/videos/artifact-6.mp4"><img src="assets/previews/artifact-6.gif" alt="Animated textured reconstruction of artifact 6" width="480"></a><br><strong>Artifact 6</strong> · <a href="assets/videos/artifact-6.mp4">Full video</a></td>
   </tr>
 </table>
 
-*Final presentation models from the original project. Full-resolution MP4s are included unchanged. [Preview details and media provenance](docs/media-provenance.md).*
+*Source frames retain their original framing and color. The videos show final presentation models from the original project. [Frame selections and media provenance](docs/media-provenance.md).*
 
 ## From underwater imagery to a model
 

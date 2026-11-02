@@ -19,6 +19,7 @@ These are final presentation models. The precise reconstruction engine and full 
 
 ## Input and comparison images
 
+- `artifact-1-source-collage.jpg`, `artifact-3-source-collage.jpg`, `artifact-5-source-collage.jpg`, and `artifact-6-source-collage.jpg`: four visually selected frames per artifact, sampled from widely separated positions in the archived input sequences. Each complete frame is proportionally resized and arranged with its original frame number. No additional color correction or cropping was applied. The labels for artifact 5 distinguish its two source videos. These collages illustrate selected viewpoints from the larger sequences; see the [frame selections and source hashes](../evidence/source-frame-selections.json) for exact provenance.
 - `artifact-3-input.jpg`: resized from the archived input `artefact3/artefact3_frames00181.jpg`. Its prior color-adjustment history is unknown.
 - `artifact-3-meshroom-report.jpg` and `artifact-3-recap-report.jpg`: original embedded images from printed page 15 of the report, preserving the report's software labels.
 - `focal-length-report-a.jpg` and `focal-length-report-b.jpg`: original embedded Figures 5 and 6 from printed page 14 of the report, preserving its experimental labels. These snapshots alone do not validate the reported mechanism or quantify accuracy.
