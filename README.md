@@ -63,7 +63,6 @@ The report describes fewer floating mesh artifacts with metadata. This was a qua
 
 - [Technical notes and recovered reconstruction statistics](docs/project-notes.md)
 - [Original project report · 2022](reports/NIO_Project_report_2022.pdf)
-- [Original rendered videos on Google Drive](https://drive.google.com/drive/folders/1_581juqpWYv1QTdUgxJZUVrJMKO82Li8)
 
 This repository presents the 2022 results. Evaluation was qualitative; no independent geometric accuracy measurement is reported. The reconstruction algorithms were supplied by the existing tools.
 
