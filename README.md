@@ -1,8 +1,8 @@
 # Underwater 3D Reconstruction from Expedition Video
 
-**Mohammed Ayaan · CSIR–National Institute of Oceanography, Goa · May–July 2022**
+**Summer Internship Project · CSIR–National Institute of Oceanography, Goa · May–July 2022**
 
-An undergraduate exploration of photogrammetry for documenting underwater archaeological artifacts at Dwarka, India. I turned selected expedition footage into textured 3D models and compared reconstruction workflows.
+An exploration of photogrammetry for documenting underwater archaeological artifacts at Dwarka, India. I turned selected expedition footage into textured 3D models and compared reconstruction workflows.
 
 ## Reconstructed artifacts
 
